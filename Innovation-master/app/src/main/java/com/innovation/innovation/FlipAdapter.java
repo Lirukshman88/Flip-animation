@@ -17,7 +17,7 @@ import java.util.List;
 public class FlipAdapter extends BaseAdapter {
 
     public interface Callback {
-        public void onPageRequested(int page);
+        void onPageRequested(int page);
     }
 
     static public class Item {
@@ -74,7 +74,7 @@ public class FlipAdapter extends BaseAdapter {
 
         if(convertView == null) {
             holder = new ViewHolder();
-            convertView = inflater.inflate(R.layout.content_project_flip, parent, false);
+            convertView = inflater.inflate(R.layout.content_project, parent, false);
 
             holder.productID = (TextView) convertView.findViewById(R.id.productID);
             holder.productBox = (TextView) convertView.findViewById(R.id.product);
@@ -123,13 +123,6 @@ public class FlipAdapter extends BaseAdapter {
     public void addItems(int amount) {
         for(int i = 0 ; i<amount ; i++){
             items.add(new Item());
-        }
-        notifyDataSetChanged();
-    }
-
-    public void addItemsBefore(int amount) {
-        for(int i = 0 ; i<amount ; i++){
-            items.add(0, new Item());
         }
         notifyDataSetChanged();
     }

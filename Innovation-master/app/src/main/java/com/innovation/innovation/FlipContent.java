@@ -29,10 +29,10 @@ public class FlipContent extends AppCompatActivity implements FlipAdapter.Callba
         mAdapter = new FlipAdapter(this);
         mFlipView.setAdapter(mAdapter);
         mFlipView.setOnFlipListener(this);
-        mFlipView.peakNext(false);
-        mFlipView.setOverFlipMode(OverFlipMode.RUBBER_BAND);
-        mFlipView.setEmptyView(findViewById(R.id.empty_view));
-        mFlipView.setOnOverFlipListener(this);
+       // mFlipView.peakNext(false);
+        // mFlipView.setOverFlipMode(OverFlipMode.RUBBER_BAND);
+        //mFlipView.setEmptyView(findViewById(R.id.empty_view));
+        //mFlipView.setOnOverFlipListener(this);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);

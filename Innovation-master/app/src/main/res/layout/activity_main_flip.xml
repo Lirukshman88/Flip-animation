@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:flipview="http://schemas.android.com/apk/res-auto" >
@@ -8,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ffffff"
-        flipview:orientation="vertical"
+        flipview:orientation="horizontal"
         tools:context=".MainActivity" >
     </se.emilsjolander.flipview.FlipView>
 
@@ -30,4 +31,3 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
 </merge>
-

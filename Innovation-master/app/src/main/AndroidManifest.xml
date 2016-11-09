@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".FlipListContent">
+        <activity android:name=".ListContent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

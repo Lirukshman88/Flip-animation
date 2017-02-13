@@ -1,2 +1,2 @@
 # Flip-animation
-This is a preview of our K-12 Partneship App
+The K-12 Partneship App with the addition of the flip
